@@ -36,3 +36,84 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fd926d;
+    border-bottom-color: transparent;
+}
+.nav-tabs>li>a {
+    margin-right: 0;
+    border: 0;
+}
+.nav>li>a {
+    padding: 10px 35px;
+}
+.nav-tabs{
+    padding-top: 10px;
+    margin-top: 40px;
+}
+#home{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.button{
+    width: 54px;
+    height: 42px;
+}
+#colorbutton{
+  background-color: #fd926d;
+}
+#hr{
+  width: 42%;
+  text-align:left;
+  float:left;
+  margin-top: 8%;
+}
+#clearence{
+  width: 16%;
+  float:left;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left:2.2%;
+}
+
+#textcenterhr{
+  float:left;
+  width: 16%;
+  padding-left:2%;
+  margin-top: 2%;
+}
+#hrr{
+  width: 42%;
+  text-align:left;
+  float:left;
+  margin-top: 3.3%;
+}
+
+#center{
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#end{
+    height: 80px;
+    background-color: #000000;
+}
+#textcenter{
+  text-align: center;
+}
+#left{
+    float:left;
+    margin-top: 30px;
+    font-size: 15px;
+}
+#right{
+    text-align: right;
+    margin-top: 25px;
+    font-size: 15px;
+}
+#zoom{
+    font-size: 20px;
+}
