@@ -29,12 +29,43 @@
   height: 60px;
   margin-top: 80px;
 }
+.stylelogo {
+    width: 130%;
+}
+#stylecart{
+    padding-left: 170px;
+  }
+#stylecart1{
+    padding-left: 150px;
+  }
+.stylewidth{
+  width:100%;
+}
+#styletext{
+    margin-top: 6px;
+}
+#styleiconadd{
+  font-size:45px;
+  color:#fd926d;
+  margin-top: 3px;
+}
+#styleiconfb{
+  font-size:24px;
+  margin-top: 5px;
+}
+.sol6{
+    width: 106%;
+}
+.sol3{
+    width: 112.8%;
+}
 #text1{
 	 border-left-width: 2px;
     margin-left: 10px;
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-top: 8px;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     color: #555;
@@ -60,9 +91,39 @@
 .button{
     width: 54px;
     height: 42px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
 }
-#colorbutton{
-  background-color: #fd926d;
+#choese{
+  background-color:  #fd926d;
+}
+#add{
+    float: left;
+    margin-top: 10px;
+}
+
+#addtocard {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    padding-right: 0px;
+    padding-left: 2px;
+    background-color: #fd926d;
+}
+
+#iconadd{
+  float:right;
+  font-size:40px;
+  color: #fff;
+}
+
+#zoom{
+  width: 110%;
+}
+#big{
+  font-size: 30px;
 }
 #hr{
   width: 42%;
@@ -100,7 +161,15 @@
 #end{
     height: 80px;
     background-color: #000000;
+
 }
+#styleicon{
+  font-size:40px;
+}
+#sizeicon{
+  font-size:40px;
+}
+
 #textcenter{
   text-align: center;
 }
