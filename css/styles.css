@@ -126,14 +126,15 @@
   font-size: 30px;
 }
 #hr{
-  width: 42%;
-  text-align:left;
   float:left;
   margin-top: 8%;
 }
+#hr1{
+  float:right;
+  margin-top: 8%;
+}
 #clearence{
-  width: 16%;
-  float:left;
+  float:center;
   margin-top: 2%;
   margin-bottom: 2%;
   padding-left:2.2%;
@@ -185,4 +186,13 @@
 }
 #zoom{
     font-size: 20px;
+}
+.khung{
+  background-color: #f7f7f7;
+}
+#mobilebg{
+    background-color: #fd926d;
+}
+@media only screen and (max-width: 768px){
+
 }
