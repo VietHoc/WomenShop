@@ -27,16 +27,17 @@
   border-radius: 0;
   border: 0;
   height: 60px;
+  top: 30px;
   margin-top: 80px;
+}
+#top{
+  margin-top: 30px;
 }
 .stylelogo {
     width: 130%;
 }
 #stylecart{
-    padding-left: 170px;
-  }
-#stylecart1{
-    padding-left: 150px;
+    float:right;
   }
 .stylewidth{
   width:100%;
@@ -99,18 +100,34 @@
 #choese{
   background-color:  #fd926d;
 }
-#add{
+.add{
     float: left;
-    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    padding-left: 5px;
 }
-
-#addtocard {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 15px;
-    padding-right: 0px;
-    padding-left: 2px;
+.button1{
     background-color: #fd926d;
+    width: 140px;
+    border: 5px solid #dd6b44;
+    padding: 8px;
+    margin: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-left: 15%;
+    
+}
+#iconplus{
+  color:white;
+  padding-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #iconadd{
@@ -120,18 +137,19 @@
 }
 
 #zoom{
-  width: 110%;
+  width: 105%;
 }
 #big{
   font-size: 30px;
 }
-#hr{
-  float:left;
-  margin-top: 8%;
+#hrhr{
+  margin-top:100px;
 }
-#hr1{
-  float:right;
-  margin-top: 8%;
+#hr {
+    position: relative;
+    top: -100px;
+    margin-left: 50%;
+    left: -80px;
 }
 #clearence{
   float:center;
@@ -193,6 +211,65 @@
 #mobilebg{
     background-color: #fd926d;
 }
-@media only screen and (max-width: 768px){
+.container{
+  height: auto;
+}
 
+@media screen and (max-width: 768px){  
+  #header-nav {
+    background-color: #fafafa;
+    border-radius: 0;
+    border: 0;
+    height: 0px;
+  }
+  #styletext{
+    float: left;
+    padding-left: 100px;
+    font-size: 20px;
+    }
+  .stylelogo{
+    position: absolute;
+    top: -10px;
+    margin-left: 50%;
+    left: -80px;
+    width: 200px;
+  }
+  #menu{
+    background: #fd926d;
+    height: 60px;
+  }
+  #menutext{
+    padding-top: 15px;
+    padding-left: 20px;
+  }
+  #iconmenu{
+    position: relative;
+    top: -30px;
+  }
+  #item{
+        background: #fafafa;
+  }
+  #stay{
+    position: relative;
+    top: 50px;
+  }
+  #customcare{
+    float: left;
+    position: absolute;
+    top: 15px;
+    margin-left: 50%;
+    left: -80px;
+  }
+  #us{
+    background-color: #000000;
+  }
+  #us1{
+     position: absolute;
+    top: 15px;
+    margin-left: 40%;
+    left: -80px; 
+  }
+  #right{
+    margin-right: 50px;
+  }
 }
