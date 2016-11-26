@@ -20,7 +20,7 @@
  	 		<div id="customcare">CUSTOM CARE: 888-23-4567 </div>
     		<div style="float:right" class="hidden-xs">
     			<div style="float:right">
-					<a href="#"><p><span class="glyphicon glyphicon-search"></span><p></a>
+					<a href="#"><p><span class="glyphicon glyphicon-search"></span></p></a>
 				</div>
 				<div style="float:right">
 					<a href="#"><p><span class="glyphicon glyphicon-user"></span> MY ACCOUNT</p></a>
@@ -40,7 +40,7 @@
 				<a href="#"><p style="margin-right: 50px;"><span class="glyphicon glyphicon-user"></span> MY ACCOUNT</p></a>
 			</div>			
 			<div style="float:left">
-				<a href="#"><p><span class="glyphicon glyphicon-search"></span><p></a>
+				<a href="#"><p><span class="glyphicon glyphicon-search"></span></p></a>
 			</div>
   		</div>
   	</nav>
@@ -117,7 +117,7 @@
     </div>	
     </div>
 </header>
-
+   
     <!-- Wrapper for slides -->
 	<section class="hidden-xs">
 		<div class="slideshow-container">
@@ -143,35 +143,40 @@
 <!-- --------------end slider-------- -->
 
 <!---------------------------------------------------------Content---------------------------------------------------------->
-	<div class="container" id="stay">
-		<div class="container">
-			<div id="styletext" style="float:left" class="hidden-xs" >Stay updated</div>	
-			<div style="background-color: red;">
-				<div style="float:left;">Your email address</div>			
-				<div style="float:right;" >
-					<a href="../icon/plus">
-        				<i class="fa fa-plus" aria-hidden="true" ></i> <em></em>	
-        			</a> 	
-				</div>	
-			</div>
+	<div class="container">
+		<div id="styletext" style="float:left" class="hidden-xs" >Stay updated</div>	
+		<div class="navbar navbar-default" style="
+    height: 32px;
+    top: 120px;
+">
+			<div id="styletext" style="float:left;/* position: relative; */position: absolute;/* top: 15px; */">Your email address</div>			
+			<div style="float:right;">
+				<a href="../icon/plus">
+        			<i class="fa fa-plus" aria-hidden="true" style="
+    position: absolute;
+    top: 15px;
+"></i> <em></em>	
+        		</a> 	
+			</div>	
 		</div>
-			
-			
-				<div>	
-					<div id="styletext" style="float:left;">Find us here</div>
-					<div style="float:left;">
-						<a href="https://www.facebook.com/"><i id="styleiconfb" class="fa">&#xf09a;</i></a>
-					</div>
-					<div style="float:left;">
-						<a href="https://www.facebook.com/"><i id="styleiconfb" class="fa">&#xf099;</i></a>
-					</div>
-					<div style="float:left;">
-						<a href="https://www.facebook.com/"><i id="styleiconfb" class="fa">&#xf0d2;</i></a>
-					</div>				
-				</div>
-			
- 	 	</div>	
 	</div>
+	<div class="container">
+	<div class="navbar navbar-default " style=" margin-bottom: 30px;top: 60px;">	
+		<div id="styletext" style="float:left;">Find us here</div>
+		<div style="float:left;">
+			<a href="https://www.facebook.com/"><i id="styleiconfb" class="fa"></i></a>
+		</div>
+		<div style="float:left;">
+			<a href="https://www.facebook.com/"><i id="styleiconfb" class="fa"></i></a>
+		</div>
+		<div style="float:left;">
+			<a href="https://www.facebook.com/"><i id="styleiconfb" class="fa"></i></a>
+		</div>				
+	</div>	
+	</div>	
+
+			
+ 
 <!------------------best---------------->
 	<div class="container" > 
 		<div class="hidden-xs" id="top">
@@ -332,6 +337,7 @@
 	      		</div>
 			</div>
 		</div>
+		<div class="loadmore"> LOAD MORE</div>
 	</div>
 	
 <!------------------hr---------------->
@@ -400,7 +406,8 @@
 			</div>
 		</div>
 	</div>
-	<div class="visible-xs">
+	<div class="visible-xs" style="position: relative;top: -60px;height: 50px;">
+
 		<div class="container" style="clear: left">
 	  		<div class="row text-center">
 	      		<div class="col-xs-6">
@@ -431,6 +438,7 @@
 	      		</div>
 			</div>
 		</div>
+		<div class="loadmore"> LOAD MORE</div>
 	</div>
 <!--------------end content---------------->
 
@@ -461,7 +469,7 @@
 	</div>
 
 
-	<footer class="panel-footer">
+	<footer class="panel-footer" >
     	<div class="container">
      		<div class="row">
      			<div class="hidden-xs">
@@ -534,63 +542,32 @@
   	</footer>
 
   	<footer id="end" >
-  		<div class="container" > 
-  			
+  		
   				<button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" id="iconmenu">
             			<span class="sr-only">MENU</span>
             			<span class="icon-bar"></span>
             			<span class="icon-bar"></span>
             			<span class="icon-bar"></span>
         		 </button>	
-				
-				<div id="navbar" class="nav navbar-nav navbar-right navbar-collapse collapse" class="hidden-md">
-    	<ul id="nav-list" class="nav navbar-nav navbar-right" >
-     		<li class="dropdown">
-          		<button class="btn btn-default   dropdown-toggle" type="button"  data-toggle="dropdown">new
-          			<span class="caret"></span>
-          		</button>
-        	</li>
-   
-     		<li class="dropdown">
-          		<button class="btn btn-default dropdown-toggle" type="button"  data-toggle="dropdown">designers
-          			<span class="caret"></span>
-          		</button>
-        	</li>
-
-        	<li class="dropdown">
-          		<button class="btn btn-default dropdown-toggle" type="button"  data-toggle="dropdown">women
-          			<span class="caret"></span>
-          		</button>
-          		<ul class="dropdown-menu">
-                	<li><a href="products.html">Accessories</a></li>
-              		<li><a href="products.html">Ethnic Apparel</a></li>
-              		<li><a href="products.html">Footwear</a></li>
-              		<li><a href="products.html">Grooming</a></li>
-              		<li><a href="products.html">Handbags</a></li>
-              		<li><a href="products.html">Jewellery</a></li>
-              </ul>
-        	</li>
-
-      		<li class="dropdown">
-      	    	<button class="btn btn-default dropdown-toggle" type="button"  data-toggle="dropdown">men
-         			<span class="caret"></span>
-         		</button>
-        	</li>
-
-      		<li class="dropdown">
-         		<button class="btn btn-default dropdown-toggle" type="button"  data-toggle="dropdown">clearence
-          			<span class="caret"></span>
-          		</button>
-       		</li>
-    	</ul>
-    </div>	
-		
-  			
-  				<div id="right" "> <b>© LookShop.com <br>
+				<a class="btn glyphicon glyphicon-menu-hamburger visible-xs" href="#" ></a>
+				<div id="right" class="com"> <b>© LookShop.com <br>
 					All Rights Reserved</b>
 				</div>
 			
-		</div>
+				<div id="navbar" class="nav navbar-nav navbar-right navbar-collapse collapse" class="hidden-md">
+    				<ul id="nav-list" class="nav navbar-nav navbar-right" >
+     			
+          				<li class="active"><a href="login.html">Privacy & Cookies</a></li> |
+						<li><a href="checkout.html">Terms & Conditions</a></li> |
+						<li><a href="checkout.html">Accessibility</a></li> |
+						<li><a href="login.html">Store Directory</a></li> |
+						<li><a href="register.html">About Us</a></li>
+    				</ul>
+   				 </div>	
+			
+	
+  				
+		
   	</footer>
 <!-- jQuery (Bootstrap JS plugins depend on it) -->
   	<script src="js/jquery-2.1.4.min.js"></script>
