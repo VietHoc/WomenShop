@@ -56,6 +56,8 @@
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+  display: block;
+  margin-top: 100px;
 }
 
 @-webkit-keyframes fade {
