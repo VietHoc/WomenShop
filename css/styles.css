@@ -378,6 +378,11 @@
     width: 202px;
     left: 130px;
   }
+  #sale{
+
+    position: absolute;
+    top: 0px;
+  }
   #styletext{
     position: relative;
     top: 40px;

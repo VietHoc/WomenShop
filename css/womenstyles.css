@@ -154,3 +154,9 @@ h3 {
 }
 #clothing{
         margin-left: 55px;
+    }
+#sale1{
+    left: 15px;
+    position: absolute;
+    top: 0px;
+}
