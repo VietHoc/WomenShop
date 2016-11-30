@@ -140,21 +140,21 @@ ul {
 }
 <----->
 
-.plus1{
+#one{
+	float: left;
+    width: 40px;
+    height: 40px;
+    background:#feb298;
+    color: white;
+}
+#plus2{
 	float: left;
     width: 40px;
     height: 40px;
     background: #fd926d;
     color: white;
 }
-.plus2{
-	float: left;
-    width: 40px;
-    height: 40px;
-    background: #feb298;
-    color: white;
-}
-.plus{
+.plus3{
 	margin-top: 10px;
     margin-left: 15px;
 }
