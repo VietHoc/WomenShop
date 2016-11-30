@@ -24,15 +24,16 @@
     margin-bottom: 30px;
     color: #fd926d;
 }
-#cate{
+.cate{
     border: 1px solid #ddd;
     color: white;
     background: black;
     margin-top: 0px;
-    width: 122px;
+    width: 100%;
     height: 32px;
     padding-top: 5px;
     padding-left: 14px;
+    margin-bottom: 30px;
 }
 <!---+--->
 button.accordion {
@@ -83,3 +84,68 @@ div.panel.show {
         padding-right: 150px;
 
 }
+#sortbuy{
+    float: left;
+    margin-right: 20px;
+}
+.floatright{
+    float:right;
+    height: 0;
+}
+#showing{
+    position: absolute;
+    left: 500px;
+    top: 10px;
+}
+#pagination1{
+    position: relative;
+    bottom: 40px;
+}
+.size{
+    float:left;
+    width: 40px;
+    height: 40px;
+    background: #ddd;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+#select{
+        height: 60px;
+}
+#fea{
+    margin-top: 10px;
+}
+.hight{
+        height: 100px;
+}
+.floatright1{
+    float:right;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#showing1{
+    position: absolute;
+    margin-right: 0px;
+    padding-right: 0px;
+    right: 155px;
+    padding-top: 0px;
+    margin-top: 30px;
+}
+h2 {
+  margin-bottom:0;
+}
+h3 {
+  margin:0 0 30px;
+} 
+.ui-slider-range {
+   background:green;
+}
+.percent {
+  color:green;
+  font-weight:bold;
+  text-align:center;
+  width:100%;
+  border:none;
+}
+

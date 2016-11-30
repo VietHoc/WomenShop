@@ -12,6 +12,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<link href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" rel="stylesheet">
+	
 </head>
 <body>
 <!--------------------------------------------------Header---------------------------------------------->
@@ -124,8 +126,9 @@
 	<div class="container">
 		<hr id="hr1">
 		<div>
-			<i>Women</i>>
-			<i>Clothing</i>
+			<img src="images/home.png">
+			<i> > Women</i>
+			<i>> Clothing</i>
 		</div>
 		<hr id="hr2">
 	</div>
@@ -167,7 +170,7 @@
  				 <img src="images/product.png" class="col-md-7">
  				 <div class="banner_right col-md-5">
 				   	<h1>Magna Aliquam</h1>
-				   	<h1 class="p1">$08.95</h1>
+				   	<h1 class="p1">$80.95</h1>
 			 		<p class="p2">Dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet</p>
 				   	<div class="wm-button1" >
 		          		<scan class="add ">ADD TO CARD</scan>
@@ -195,22 +198,22 @@
 	<div class="container">
 	 	<div class="col-md-9">
 	 		<div>
-	 		<div>sort buy</div>
+	 		<div id="sortbuy">Sort buy</div>
 	 			<select>
   					<option value="date">DATE</option>
   					<option value="week">WEEK</option>
 				</select>
 			</div>
-			<div>
-	 		<div>Showing 1-12 off 347 results</div>
-	 		<div>
-	 			<ul class="pagination">
-				  <li><a href="#">1</a></li>
-				  <li><a class="active" href="#">2</a></li>
-				  <li><a href="#">3</a></li>
-				  <li><a href="#">></a></li>
-				</ul>
-	 		</div>
+			<div class="floatright">
+	 			<div id="showing">Showing 1-12 off 347 results</div>
+	 			<div id="pagination1">
+	 				<ul class="pagination">
+				 	   	<li><a href="#">1</a></li>
+				 		<li><a class="active" href="#">2</a></li>
+				  		<li><a href="#">3</a></li>
+				  		<li><a href="#">></a></li>
+					</ul>
+	 			</div>
 	 		</div>
 	 		<hr>
 	 		<div class="col-md-4">
@@ -330,11 +333,22 @@
 		          	</div>
 	        	</div>
 	 		</div>
+	 		<div class="floatright1">
+				<div id="showing1">Showing 1-12 off 347 results</div>
+				<div >
+					<ul class="pagination">
+ 				   	<li><a href="#">1</a></li>
+ 					<li><a class="active" href="#">2</a></li>
+  					<li><a href="#">3</a></li>
+  					<li><a href="#">></a></li>
+				</ul>
+				</div>
+			</div>
 		</div>
 
      	<div class="col-md-3">
-			<div id="cate">CATEGORIES</div>
-			<button class="accordion"><span id="float">NEW</span></button>
+			<div class="cate">CATEGORIES</div>
+			<button class="accordion" style=" width: 100%;"><span id="float">NEW</span></button>
 			<div class="panel">
 				<ul>
   					<li>new 1</li>
@@ -342,7 +356,7 @@
   				</ul>
 			</div>
 			<hr>
-			<button class="accordion"><span id="float">DESIGNERS</span></button>
+			<button class="accordion" style=" width: 100%;"><span id="float">DESIGNERS</span></button>
 			<div class="panel">
 				<ul>
   					<li>new 1</li>
@@ -350,7 +364,7 @@
   				</ul>
 			</div>
 			<hr>
-			<button class="accordion"><span id="float">WOMEN</span></button>
+			<button class="accordion" style=" width: 100%;"><span id="float">WOMEN</span></button>
 			<div class="panel">
 				<ul>
   					<li>Clothes</li>
@@ -358,7 +372,7 @@
   				</ul>
 			</div>
 			<hr>	
-			<button class="accordion"><span id="float">MEN</span></button>
+			<button class="accordion" style=" width: 100%;"><span id="float">MEN</span></button>
 			<div class="panel">
 				<ul>
   					<li>Clothes</li>
@@ -366,7 +380,7 @@
   				</ul>
 			</div>
 			<hr>
-			<button class="accordion"><span id="float">CLEARANCE</span></button>
+			<button class="accordion"  style=" width: 100%;"><span id="float">CLEARANCE</span></button>
 			<div class="panel">
 				<ul>
   					<li>Clothes</li>
@@ -374,63 +388,99 @@
   				</ul>
 			</div>
 			<hr>
+
+		
+				<rzslider rz-slider-model="slider.minValue"
+          rz-slider-high="slider.maxValue"
+          rz-slider-options="slider.options"></rzslider>
+
+
+ 		
+  
+
+
+
+
+
+
+
+
+
 			<div>PRICE 0$->200$</div>
-			<div>SELECT YOUR SIZE</div>
-			<div>XS</div><div>S</div><div>M</div><div>L</div><div>XL</div>
-
-			<div>ON SALE</div>
-			<div >
-				<div class="col-md-8">
-					<img src="images/s1.jpg" alt=""/>
-				</div>
-				<div class="col-md-8">
-					<div>PINTUS TANK</div>
-					<div>$45.45</div>
-				</div>
-				<div class="col-md-8">
-					<img src="images/s2.jpg" alt=""/>
-				</div>
-				<div class="col-md-8">
-					<div>PINTUS TANK</div>
-					<div>$45.45</div>
-				</div>
-				<div class="col-md-8">
-					<img src="images/s3.jpg" alt=""/>
-				</div>
-				<div class="col-md-8">
-					<div>PINTUS TANK</div>
-					<div>$45.45</div>
+			<div >SELECT YOUR SIZE</div>
+			<div id="select">
+			<div class="size">XS</div class="size"><div class="size">S</div><div class="size">M</div><div class="size">L</div><div class="size">XL</div>
+			</div>
+			<div>
+			<div class="cate">ON SALE</div>
+				<div >
+					<div class="hight">
+						<div class="col-md-5">
+							<img src="images/s1.jpg" alt=""/>
+						</div>
+						<div class="col-md-7">
+							<h4>PINTUS TANK</h4>
+							<h4 class="p1">$45.45</h4>
+						</div>
+					</div>
+					<hr>
+					<div class="hight">
+						<div class="col-md-5">
+							<img src="images/s2.jpg" alt=""/>
+						</div>
+						<div class="col-md-7">
+							<h4>PINTUS TANK</h4>
+							<h4 class="p1">$45.45</h4>
+						</div>
+					</div>	
+					<hr>
+					<div class="hight">
+						<div class="col-md-5">
+							<img src="images/s3.jpg" alt=""/>
+						</div>
+						<div class="col-md-7">
+							<h4>PINTUS TANK</h4>
+							<h4 class="p1">$45.45</h4>
+						</div>
+					</div>
 				</div>
 			</div>
-
-			<div>FEATURED PRODUCTS</div>
+			<div class="cate" id="fea">FEATURED PRODUCTS</div>
 			<div >
-				<div class="col-md-8">
-					<img src="images/s4.jpg" alt=""/>
+				<div class="hight">
+					<div class="col-md-5">
+						<img src="images/s4.jpg" alt=""/>
+					</div>
+					<div class="col-md-7">
+						<h4>PINTUS TANK</h4>
+						<h4 class="p1">$45.45</h4>
+					</div>
 				</div>
-				<div class="col-md-8">
-					<div>PINTUS TANK</div>
-					<div>$45.45</div>
+				<hr>
+				<div class="hight">
+					<div class="col-md-5">
+						<img src="images/s5.jpg" alt=""/>
+					</div>
+					<div class="col-md-7">
+						<h4>PINTUS TANK</h4>
+						<h4 class="p1">$45.45</h4>
+					</div>
 				</div>
-				<div class="col-md-8">
-					<img src="images/s5.jpg" alt=""/>
-				</div>
-				<div class="col-md-8">
-					<div>PINTUS TANK</div>
-					<div>$45.45</div>
-				</div>
-				<div class="col-md-8">
-					<img src="images/s6.jpg" alt=""/>
-				</div>
-				<div class="col-md-8">
-					<div>PINTUS TANK</div>
-					<div>$45.45</div>
+				<hr>
+				<div class="hight">
+					<div class="col-md-5">
+						<img src="images/s6.jpg" alt=""/>
+					</div>
+					<div class="col-md-7">
+						<h4>PINTUS TANK</h4>
+						<h4 class="p1">$45.45</h4>
+					</div>
 				</div>
 			</div>
  		</div>
 	</div>
 </content>
-<div>Showing</div>
+
 <div class="container" id="center">
 	we accept 
 	<img src="images/accept.png" >
@@ -457,7 +507,7 @@
 	          				Affiliate<br>
 	          				Cookies<br>
 	          				How to Shop<br>
-			  				About Nelly<br>
+			  				About Nelly<br>s
 			  				Investor ralations<br> 
 	        			</section>
 	        			<section id="testimonials" class="col-md-3 col-sm-6">
