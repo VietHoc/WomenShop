@@ -355,6 +355,11 @@
     margin-top: 10px;
     font-size: 16px;
   }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: 0px;
+  }
   .choese{
       position: absolute;
       left: 450px;
