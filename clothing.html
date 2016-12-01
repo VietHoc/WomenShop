@@ -97,12 +97,12 @@
           			<span class="caret"></span>
           		</button>
           		<ul class="dropdown-menu">
-                	<li><a href="products.html">Accessories</a></li>
-              		<li><a href="products.html">Ethnic Apparel</a></li>
-              		<li><a href="products.html">Footwear</a></li>
-              		<li><a href="products.html">Grooming</a></li>
-              		<li><a href="products.html">Handbags</a></li>
-              		<li><a href="products.html">Jewellery</a></li>
+                	<li><a href="women.html">Accessories</a></li>
+              		<li><a href="women.html">Ethnic Apparel</a></li>
+              		<li><a href="women.html">Footwear</a></li>
+              		<li><a href="women.html">Grooming</a></li>
+              		<li><a href="women.html">Handbags</a></li>
+              		<li><a href="women.html">Jewellery</a></li>
               </ul>
         	</li>
 
@@ -436,6 +436,27 @@
   	<script src="js/bootstrap.min.js"></script>
  	<script src="js/ajax-utils.js"></script>
    	<script src="js/script.js"></script>
-    
+    <script type="text/javascript">
+	$(function() {
+	
+	    var menu_ul = $('.menu > li > ul'),
+	           menu_a  = $('.menu > li > a');
+	    
+	    menu_ul.hide();
+	
+	    menu_a.click(function(e) {
+	        e.preventDefault();
+	        if(!$(this).hasClass('active')) {
+	            menu_a.removeClass('active');
+	            menu_ul.filter(':visible').slideUp('normal');
+	            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+	        } else {
+	            $(this).removeClass('active');
+	            $(this).next().stop(true,true).slideUp('normal');
+	        }
+	    });
+	
+	});
+</script>
 </body>
 </html>
