@@ -138,6 +138,31 @@ ul {
 .menu > li > a:hover, .menu > li > a.active {
 	background:#fd926d;
 }
+.menu ul li a {
+	font-size: 0.8125em;
+}
+ul.menu li.item1{
+	background:#ffd5c6;
+}
+ul.menu li.item1 img, ul.menu li.item2 img, ul.menu li.item3 img, ul.menu li.item4 img, ul.menu li.item5 img{
+	margin: -3px 10px 0 0;
+}
+ul.menu li.item2{
+	background:#ffcab8;
+}
+ul.menu li.item3{
+	background:#ffae92;
+}
+ul.menu li.item4{
+	background:#ffa687;
+}
+ul.menu li.item5{
+	background:#fd926d;
+}
+ul {
+	padding: 0;
+	list-style: none;
+}
 <----->
 
 #one{
